@@ -1,0 +1,19 @@
+#loz {
+  height: 50px;
+  width: 100px;
+}
+
+#grandma {
+  height: 30px;
+  width: 100px;
+}
+
+#comrade {
+  height: 30px;
+  width: 100px;
+}
+
+#stalin {
+  height: 30px;
+  width: 100px;
+}

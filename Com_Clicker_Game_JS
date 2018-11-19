@@ -1,0 +1,66 @@
+var counter = 0
+var communist = 0
+var comCost = 0
+var comrade = 0
+var stalinn = 0
+var staCost = 0
+
+function congsan() {
+  counter = counter + 1;
+  $('#scoreDisplay').text(counter);
+  $('#lozz').clone().appendTo('body')
+  $('#numAutoDisplay').text(communist)
+  $('#autoDisplay').text(100 + 10 * communist)
+  $('#comradeCost').text(1500 + 500 * comrade)
+  $('#numCom').text(comrade)
+  $('#josef').text(2500 + 1000 * stalinn)
+  $('#numStalin').text(stalinn)
+}
+
+$('#help').click(function() {
+  $('#helper').toggle();
+})
+
+function comrae() {
+  counter = counter + 10
+}
+
+function staliin() {
+  counter = counter + 50
+}
+
+$("#loz").click(congsan);
+$("#grandma").click(granny);
+$("#comrade").click(comradee);
+$('#stalin').click(stallin);
+
+
+function granny() {
+  if (counter <= (100 + 10 * communist)) {
+    counter = counter - 0
+  } else {
+    counter = counter - (100 + 10 * communist)
+    communist = communist + 1
+    setInterval(congsan, 1000);
+  }
+}
+
+function comradee() {
+  if (counter <= (1500 + 500 * comrade)) {
+    counter = counter - 0
+  } else {
+    counter = counter - (1500 + 500 * comrade)
+    comrade = comrade + 1
+    setInterval(comrae, 2000)
+  }
+}
+
+function stallin() {
+  if (counter <= (2500 + 1000 * stalinn)) {
+    counter = counter - 0
+  } else {
+    counter = counter - (2500 + 1000 * stalinn)
+    stalinn = stalinn + 1
+    setInterval(staliin, 3000)
+  }
+}

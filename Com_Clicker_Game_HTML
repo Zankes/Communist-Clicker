@@ -1,0 +1,61 @@
+<body>
+
+  <h1>
+    COMMUNISTS CLICKER
+  </h1>
+
+  <button id="loz">
+  make communist
+</button>
+
+  <img id="lozz" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_the_Communist_Party_of_Vietnam.svg/1200px-Flag_of_the_Communist_Party_of_Vietnam.svg.png" alt="commu" height="50" width="50">
+
+</body>
+
+<button id="help">
+?
+</button>
+
+<p id="helper">
+  Document generates 1 communist every 1 second/ Comrade generates 10 communists every 2 seconds/ Josef Stalin generates 50 communists every 3 seconds.
+</p>
+
+<button id="grandma">
+buy document
+</button>
+
+<button id="comrade">
+ buy comrade
+</button>
+
+<button id="stalin">
+buy josef stalin
+</button>
+
+<p>
+  COMMUNISTS: <button id="scoreDisplay">0</button>
+</p>
+
+<p>
+  DOCUMENT COST: <button id="autoDisplay">100</button>
+</p>
+
+<p>
+  COMRADE COST: <button id="comradeCost">1500</button>
+</p>
+
+<p>
+  STALIN'S COST: <button id="josef">2500</button>
+</p>
+
+<p>
+  NUM. OF COMRADES: <button id="numCom">0</button>
+</p>
+
+<p>
+  NUM. OF DOCUMENTS: <button id="numAutoDisplay">0</button>
+</p>
+
+<p>
+  NUM. OF STALINS: <button id="numStalin">0</button>
+</p>
